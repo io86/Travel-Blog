@@ -1,0 +1,244 @@
+@charset "utf-8";
+html, body  {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+/*All elements*/
+*  {
+	-webkit-box-sizing: border-box; /*Chrome 4.0, Safari 3.2*/
+	-moz-box-sizing: border-box; /*Mozilla 2.0*/
+	box-sizing: border-box;
+}
+/*Main wraper of the site*/
+#wraper  {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+/*Div with logo of the site*/
+.logo-container  {
+	font-family: 'Damion', cursive;
+    height: 100px;	
+}
+/*Links in header*/
+.header a:link  {
+	color: #000000;
+	text-decoration: none;
+}
+.header a:visited  {
+	color: #000000;
+}
+/*The word "Blog" in logo*/
+.red-blog  {
+	color: red;
+}
+/*Div with media icons*/
+.media-icons  {
+	height: 100px;
+	padding-top: 50px;
+	text-align: right;
+}
+.media-icons i  {
+    margin-left: 10px;
+}
+/*Nav under the header*/
+.main-nav  {
+	font-family: 'Roboto', sans-serif;
+}
+/*Container, main part of the site*/
+.main-part  {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+.carousel-indicators li  {
+	border: 1px solid #000000 !important;
+}
+/*Carousel caption*/
+.carousel-caption  {
+	background-color: #FFFFFF;
+	opacity: 0.8;
+}
+.carousel-caption a:link  {
+	color: #000000;
+	text-decoration: none;
+}
+.carousel-caption a:visited  {
+	color: #000000;
+}
+.carousel-caption p  {
+	color: #000000;
+}
+.arrows-carousel  {
+	margin-top: 300px;
+}
+/*Div with title "Latest articles"*/
+.latest-articles-title  {
+	border-bottom: 3px solid #000000;
+	margin-top: 50px;
+}
+.latest-articles-title h3  {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin-left: 10px;
+}
+/*Part with the main articles*/
+.articles  {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+}
+.first-article  {
+	margin-top: 50px;
+}
+.articles a:link  {
+	color: #000000;
+	text-decoration: none;
+}
+.articles a:visited  {
+	color: #000000;
+	text-decoration: none;
+}
+.articles-beside-first  {
+	margin-top: 100px;
+}
+.articles-beside-first .row  {
+	margin-top: 50px;
+}
+/*Div with "Useful Information"*/
+.useful-information  {
+	padding-top: 80px;
+}
+.useful-information h1  {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+}
+.useful-information div  {
+	margin-top: 50px;
+}
+.information  {
+	height: 500px;
+	padding: 20px;
+	position: relative;
+}
+.title-information  {
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 30%;
+	top: 35%;
+}
+.arrow-on-image  {
+	color: red;
+	font-size: 48px;
+	position: absolute;
+	left: 45%;
+	top: 40%;
+}
+/*Part with "Shared Articles"*/
+.most-shared-part  {
+	border-bottom: 3px solid red;
+	border-top: 3px solid red;
+	margin-top: 100px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.most-shared  {
+	height: 230px;
+	padding-top: 40px;
+}
+.all-shared  {
+	background-color: #800000;
+	height: 50px;
+	padding-top: 1px;
+	width: 100%;
+}
+.most-shared a:link  {
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+.most-shared a:visited  {
+	color: #FFFFFF;
+}
+.most-shared-articles  {
+	height: 230px;
+	padding-top: 30px;
+}
+.most-shared-articles a:link  {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+.most-shared-articles a:visited  {
+	color: #000000;
+}
+.every-shared-article  {
+	height: 100%;
+}
+.every-shared-article img  {
+	height: 150px;
+	width: 100%;
+}
+.every-shared-article h5  {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+/**Footer*/
+.footer  {
+	margin-top: 100px;
+}
+.logo-footer a:link  {
+	color: #000000;
+	font-family: 'Damion', cursive;
+	text-decoration: none;
+}
+.logo-footer a:visited  {
+	color: #000000;
+}
+/*Div with media icons in footer*/
+.media-icons-footer  {
+	padding-top: 10px;
+}
+.media-icons-footer i {
+	margin-right: 10px;
+}
+/*Div with copyright*/
+.copyright  {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+}
+/*Tablets (portrait)*/
+@media only screen and (min-width: 600px)  {
+
+}
+/*Tablet (landscape) and iPads(landscape)*/
+@media only screen and (min-width: 801px) {
+.title-information  {
+	font-size: 35px;
+	left: 26%;
+	top: 30%;
+}
+.all-shared  {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+}
+/*Laptop and Desktop*/
+@media only screen and (min-width: 1024px)  {
+.title-information  {
+	font-size: 35px;
+	left: 35%;
+	top: 40%;
+}
+.all-shared  {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.every-shared-article img  {
+	width: 200px;
+}
+}
