@@ -18,7 +18,7 @@ $(document).ready(function()  {
 	});
 	//FadeOut the image in first part information
 	$('.information-first').hover(function()  {
-	    $('.information-first img').fadeOut();
+	    $('.information-first img').fadeOut(100);
     },
 	function()  {
 		$('.information-first img').fadeIn();
@@ -26,7 +26,7 @@ $(document).ready(function()  {
     });	
 	//FadeOut the image in second part information
     $('.information-second').hover(function()  {
-	    $('.information-second img').fadeOut();
+	    $('.information-second img').fadeOut(100);
     },
 	function()  {
 		$('.information-second img').fadeIn();
@@ -34,7 +34,7 @@ $(document).ready(function()  {
     });
 	//FadeOut the image in third part information
 	$('.information-third').hover(function()  {
-	    $('.information-third img').fadeOut();
+	    $('.information-third img').fadeOut(100);
     },
 	function()  {
 		$('.information-third img').fadeIn();
